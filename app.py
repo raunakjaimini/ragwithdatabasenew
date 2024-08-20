@@ -66,11 +66,11 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-st.title("🔍 Hybrid Search with Langchain and Pinecone")
-st.write("This application uses hybrid search with Pinecone and BM25 encoding. Enter a query to search through the stored sentences.")
+st.title("Chat-Mate..Hybrid Search with Langchain and Pinecone🔍")
+st.write("Enter a query to search through the stored sentences.")
 
 # User input
-query = st.text_input("Enter your query:", placeholder="What city did I visit recently?", key="query")
+query = st.text_input("Enter your query:", placeholder="", key="query")
 
 # Search and display the results
 if st.button("Search"):
